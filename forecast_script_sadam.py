@@ -49,8 +49,8 @@ def key_decrypt():
     Decryption of the Encrypted string with Amazon KMS
     """
     session = boto3.session.Session()
-    access_key = 'AKIAQ4BG2TDI2QTS4UUF'
-    secret_key = '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'
+    access_key = 'XXXX'
+    secret_key = 'XXXX'
     kms = session.client('kms', region_name='us-east-2',
                          aws_access_key_id=access_key,
                          aws_secret_access_key=secret_key
